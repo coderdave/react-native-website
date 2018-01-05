@@ -110,7 +110,7 @@ AppRegistry.registerComponent('App', () => App)
 
 ### `activeOpacity`
 
-Determines what the opacity of the wrapped view should be when touch is active.
+Determines what the opacity of the wrapped view should be when touch is active. Defaults to 0.85.
 
 | Type   | Required |
 | ------ | -------- |
@@ -148,7 +148,7 @@ Called immediately after the underlay is shown
 
 ### `underlayColor`
 
-The color of the underlay that will show through when the touch is active.
+The color of the underlay that will show through when the touch is active. Defaults to black.
 
 | Type               | Required |
 | ------------------ | -------- |
